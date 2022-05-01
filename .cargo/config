@@ -1,0 +1,4 @@
+[target.riscv64im-unknown-none-elf]
+rustflags = [
+    "-C", "link-arg=-Tlinker.ld", # Use our own linker script.
+]
